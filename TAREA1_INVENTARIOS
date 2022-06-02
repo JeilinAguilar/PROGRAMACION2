@@ -74,8 +74,8 @@ void salidaDeInventario() {
     movimientoInventario(codigo, cantidad, "-");
 }
 
-void ajusteNegativoDelInventario()      //se agreg� esa funcionalidad para poder hacer el 
-                                       //ajuste negativo del inventario
+void ajusteNegativoDelInventario()      
+                                       
 { 
      string codigo = "";
      int cantidad = 0;
@@ -89,8 +89,8 @@ void ajusteNegativoDelInventario()      //se agreg� esa funcionalidad para pod
      
      movimientoInventario(codigo, cantidad, "-");
 }
-void ajustePositivoDelInventario()      //se agreg� esa funcionalidad para poder hacer el 
-                                       //ajuste positivo del inventario
+void ajustePositivoDelInventario()      
+                                      
 { 
      string codigo = "";
      int cantidad = 0;
@@ -160,7 +160,6 @@ int main(int argc, char const *argv[])
         }
     }
 
- 
 
     return 0;
 }
