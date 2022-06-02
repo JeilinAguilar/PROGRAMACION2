@@ -141,12 +141,11 @@ int main(int argc, char const *argv[])
             break;
         
         case 4:
-        	ajusteNegativoDelInventario(); //salida de inventario
+        	ajusteNegativoDelInventario(); 
         	break;
         
         case 5:
-        	ajustePositivoDelInventario(); //Aumento de inventario
-        	break;
+        	ajustePositivoDelInventario();   	break;
         	
         default:
             break;
